@@ -1,0 +1,151 @@
+[{
+    "name": "pushSingle",
+    "uri": "push/single_device",
+    "requiredParams": [{
+        "name": "channel_id",
+        "type": "string"
+    }, {
+        "name": "msg",
+        "type": "string"
+    }],
+    "optionalParams": []
+}, {
+    "name": "pushAll",
+    "uri": "push/all",
+    "requiredParams": [{
+        "name": "msg",
+        "type": "string"
+    }],
+    "optionalParams": []
+}, {
+    "name": "pushTags",
+    "uri": "push/tags",
+    "requiredParams": [{
+        "name": "type",
+        "type": "number"
+    }, {
+        "name": "tag",
+        "type": "string"
+    }, {
+        "name": "msg",
+        "type": "string"
+    }],
+    "optionalParams": []
+}, {
+    "name": "pushBatchDevice",
+    "uri": "push/batch_device",
+    "requiredParams": [{
+        "name": "channel_ids",
+        "type": "string"
+    }, {
+        "name": "msg",
+        "type": "string"
+    }],
+    "optionalParams": []
+}, {
+    "name": "reportQueryMsgStatus",
+    "uri": "report/query_msg_status",
+    "requiredParams": [{
+        "name": "msg_id",
+        "type": "string"
+    }],
+    "optionalParams": []
+}, {
+    "name": "reportQueryTimerRecords",
+    "uri": "report/query_timer_records",
+    "requiredParams": [{
+        "name": "timer_id",
+        "type": "string"
+    }],
+    "optionalParams": []
+}, {
+    "name": "reportQueryTopicRecords",
+    "uri": "report/query_topic_records",
+    "requiredParams": [{
+        "name": "topic_id",
+        "type": "string"
+    }],
+    "optionalParams": []
+}, {
+    "name": "appQueryTags",
+    "uri": "app/query_tags",
+    "requiredParams": [],
+    "optionalParams": []
+}, {
+    "name": "appCreateTag",
+    "uri": "app/create_tag",
+    "requiredParams": [{
+        "name": "tag",
+        "type": "string"
+    }],
+    "optionalParams": []
+}, {
+    "name": "appDelTag",
+    "uri": "app/del_tag",
+    "requiredParams": [{
+        "name": "tag",
+        "type": "string"
+    }],
+    "optionalParams": []
+}, {
+    "name": "tagAddDevices",
+    "uri": "tag/add_devices",
+    "requiredParams": [{
+        "name": "tag",
+        "type": "string"
+    }, {
+        "name": "channel_ids",
+        "type": "string"
+    }],
+    "optionalParams": []
+}, {
+    "name": "tagDelDevices",
+    "uri": "tag/del_devices",
+    "requiredParams": [{
+        "name": "tag",
+        "type": "string"
+    }, {
+        "name": "channel_ids",
+        "type": "string"
+    }],
+    "optionalParams": []
+}, {
+    "name": "tagDeviceNum",
+    "uri": "tag/device_num",
+    "requiredParams": [{
+        "name": "tag",
+        "type": "string"
+    }],
+    "optionalParams": []
+}, {
+    "name": "timerQueryList",
+    "uri": "timer/query_list",
+    "requiredParams": [],
+    "optionalParams": []
+}, {
+    "name": "timerCancel",
+    "uri": "timer/cancel",
+    "requiredParams": [{
+        "name": "timer_id",
+        "type": "string"
+    }],
+    "optionalParams": []
+}, {
+    "name": "topicQueryList",
+    "uri": "topic/query_list",
+    "requiredParams": [],
+    "optionalParams": []
+}, {
+    "name": "reportStatisticDevice",
+    "uri": "report/statistic_device",
+    "requiredParams": [],
+    "optionalParams": []
+}, {
+    "name": "reportStatisticTopic",
+    "uri": "report/statistic_topic",
+    "requiredParams": [{
+        "name": "topic_id",
+        "type": "string"
+    }],
+    "optionalParams": []
+}]

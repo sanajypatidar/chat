@@ -1,0 +1,152 @@
+UID        PID  PPID  C STIME TTY          TIME CMD
+root         1     0  0 Sep15 ?        00:02:11 /lib/systemd/systemd --system --deserialize 28
+root         2     0  0 Sep15 ?        00:00:00 [kthreadd]
+root         3     2  0 Sep15 ?        00:00:07 [ksoftirqd/0]
+root         5     2  0 Sep15 ?        00:00:00 [kworker/0:0H]
+root         7     2  0 Sep15 ?        00:04:29 [rcu_sched]
+root         8     2  0 Sep15 ?        00:00:00 [rcu_bh]
+root         9     2  0 Sep15 ?        00:00:02 [migration/0]
+root        10     2  0 Sep15 ?        00:00:40 [watchdog/0]
+root        11     2  0 Sep15 ?        00:00:49 [watchdog/1]
+root        12     2  0 Sep15 ?        00:00:03 [migration/1]
+root        13     2  0 Sep15 ?        00:00:12 [ksoftirqd/1]
+root        15     2  0 Sep15 ?        00:00:00 [kworker/1:0H]
+root        16     2  0 Sep15 ?        00:00:49 [watchdog/2]
+root        17     2  0 Sep15 ?        00:00:06 [migration/2]
+root        18     2  0 Sep15 ?        00:00:05 [ksoftirqd/2]
+root        20     2  0 Sep15 ?        00:00:00 [kworker/2:0H]
+root        21     2  0 Sep15 ?        00:00:00 [kdevtmpfs]
+root        22     2  0 Sep15 ?        00:00:00 [netns]
+root        23     2  0 Sep15 ?        00:00:00 [perf]
+root        24     2  0 Sep15 ?        00:00:04 [khungtaskd]
+root        25     2  0 Sep15 ?        00:00:00 [writeback]
+root        26     2  0 Sep15 ?        00:00:00 [ksmd]
+root        27     2  0 Sep15 ?        00:02:15 [khugepaged]
+root        28     2  0 Sep15 ?        00:00:00 [crypto]
+root        29     2  0 Sep15 ?        00:00:00 [kintegrityd]
+root        30     2  0 Sep15 ?        00:00:00 [bioset]
+root        31     2  0 Sep15 ?        00:00:00 [kblockd]
+root        32     2  0 Sep15 ?        00:00:00 [ata_sff]
+root        33     2  0 Sep15 ?        00:00:00 [md]
+root        34     2  0 Sep15 ?        00:00:00 [devfreq_wq]
+root        40     2  0 Sep15 ?        00:08:21 [kswapd0]
+root        41     2  0 Sep15 ?        00:00:00 [vmstat]
+root        42     2  0 Sep15 ?        00:00:00 [fsnotify_mark]
+root        43     2  0 Sep15 ?        00:00:00 [ecryptfs-kthrea]
+root        59     2  0 Sep15 ?        00:00:00 [kthrotld]
+root        60     2  0 Sep15 ?        00:00:00 [acpi_thermal_pm]
+root        61     2  0 Sep15 ?        00:00:00 [vballoon]
+root        62     2  0 Sep15 ?        00:00:00 [bioset]
+root        63     2  0 Sep15 ?        00:00:00 [bioset]
+root        64     2  0 Sep15 ?        00:00:00 [bioset]
+root        65     2  0 Sep15 ?        00:00:00 [bioset]
+root        66     2  0 Sep15 ?        00:00:00 [bioset]
+root        67     2  0 Sep15 ?        00:00:00 [bioset]
+root        68     2  0 Sep15 ?        00:00:00 [bioset]
+root        69     2  0 Sep15 ?        00:00:00 [bioset]
+root        70     2  0 Sep15 ?        00:00:00 [bioset]
+root        71     2  0 Sep15 ?        00:00:00 [scsi_eh_0]
+root        72     2  0 Sep15 ?        00:00:00 [scsi_tmf_0]
+root        73     2  0 Sep15 ?        00:00:00 [scsi_eh_1]
+root        74     2  0 Sep15 ?        00:00:00 [scsi_tmf_1]
+root        80     2  0 Sep15 ?        00:00:00 [ipv6_addrconf]
+root        93     2  0 Sep15 ?        00:00:00 [deferwq]
+root        94     2  0 Sep15 ?        00:00:00 [charger_manager]
+root       135     2  0 Sep15 ?        00:00:00 [scsi_eh_2]
+root       136     2  0 Sep15 ?        00:00:00 [kpsmoused]
+root       137     2  0 Sep15 ?        00:00:00 [scsi_tmf_2]
+root       139     2  0 Sep15 ?        00:00:00 [bioset]
+root       140     2  0 Sep15 ?        00:00:00 [bioset]
+root       146     2  0 Sep15 ?        00:00:00 [bioset]
+root       148     2  0 Sep15 ?        00:00:00 [bioset]
+root       150     2  0 Sep15 ?        00:00:00 [bioset]
+root       152     2  0 Sep15 ?        00:00:00 [bioset]
+root       154     2  0 Sep15 ?        00:00:00 [bioset]
+root       156     2  0 Sep15 ?        00:00:00 [bioset]
+root       498     2  0 Sep15 ?        00:00:00 [raid5wq]
+root       524     2  0 Sep15 ?        00:00:00 [bioset]
+root       547     2  0 Sep15 ?        00:05:34 [jbd2/vda1-8]
+root       548     2  0 Sep15 ?        00:00:00 [ext4-rsv-conver]
+root       608     2  0 Sep15 ?        00:00:05 [kworker/0:1H]
+root       622     2  0 Sep15 ?        00:00:00 [iscsi_eh]
+root       630     1  0 Sep15 ?        00:16:39 /lib/systemd/systemd-journald
+root       632     2  0 Sep15 ?        00:00:00 [ib_addr]
+root       639     2  0 Sep15 ?        00:00:00 [ib_mcast]
+root       643     2  0 Sep15 ?        00:00:00 [ib_nl_sa_wq]
+root       645     2  0 Sep15 ?        00:00:00 [ib_cm]
+root       646     2  0 Sep15 ?        00:00:00 [iw_cm_wq]
+root       647     2  0 Sep15 ?        00:00:00 [kauditd]
+root       648     2  0 Sep15 ?        00:00:00 [rdma_cm]
+root       675     1  0 Sep15 ?        00:00:00 /sbin/lvmetad -f
+root       746     2  0 Sep15 ?        00:00:00 [kvm-irqfd-clean]
+root       802     2  0 Sep15 ?        00:00:06 [kworker/2:1H]
+root       813     2  0 Sep15 ?        00:00:07 [kworker/1:1H]
+root      1328     1  0 Sep15 ?        00:04:32 /sbin/iscsid
+root      1329     1  0 Sep15 ?        00:24:02 /sbin/iscsid
+root      1343     1  0 Sep15 ?        00:08:22 /usr/lib/accountsservice/accounts-daemon
+message+  1345     1  0 Sep15 ?        00:00:06 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+root      1351     1  0 Sep15 ?        00:00:11 /lib/systemd/systemd-logind
+root      1363     1  0 Sep15 ?        00:00:04 /usr/sbin/acpid
+root      1366     1  0 Sep15 ?        00:00:15 /usr/sbin/cron -f
+daemon    1368     1  0 Sep15 ?        00:00:00 /usr/sbin/atd -f
+root      1370     1  0 Sep15 ?        00:03:00 /usr/bin/lxcfs /var/lib/lxcfs/
+syslog    1375     1  0 Sep15 ?        00:04:42 /usr/sbin/rsyslogd -n
+root      1377     1  0 Sep15 ?        00:06:51 /usr/lib/snapd/snapd
+root      1413     1  0 Sep15 ?        00:00:00 /sbin/mdadm --monitor --pid-file /run/mdadm/monitor.pid --daemonise --scan --syslog
+root      1417     1  0 Sep15 ?        00:00:01 /usr/lib/policykit-1/polkitd --no-debug
+root      1489     1  0 Sep15 ?        00:04:12 /usr/sbin/irqbalance --pid=/var/run/irqbalance.pid
+root      1504     1  0 Sep15 ttyS0    00:00:00 /sbin/agetty --keep-baud 115200 38400 9600 ttyS0 vt220
+root      1509     1  0 Sep15 tty1     00:00:00 /bin/login --
+root      1510 26912  0 Dec19 tty1     00:00:03 nodejs index.js
+root      1712     1  0 Sep15 ?        00:00:00 /lib/systemd/systemd --user
+root      1714  1712  0 Sep15 ?        00:00:00 (sd-pam)
+root      1721  1509  0 Sep15 tty1     00:00:00 -bash
+root      1734  1721  0 Sep15 tty1     00:00:00 sudo su
+root      1735  1734  0 Sep15 tty1     00:00:00 su
+root      1736  1735  0 Sep15 tty1     00:00:00 bash
+root      1962     2  0 Dec19 ?        00:00:00 [kworker/1:0]
+systemd+  4516     1  0 Nov28 ?        00:00:02 /lib/systemd/systemd-timesyncd
+root      6884  1736  0 Sep15 tty1     00:00:00 mysql -u root -p
+root      7048  1736  0 Sep15 tty1     00:00:00 sudo su
+root      7049  7048  0 Sep15 tty1     00:00:00 su
+root      7050  7049  0 Sep15 tty1     00:00:00 bash
+root      8023  7050  0 Sep15 tty1     00:00:18 cp -r / /var/www/html
+root      8309     1  0 Nov28 ?        00:00:01 /lib/systemd/systemd-udevd
+root     13274     2  0 Dec18 ?        00:00:00 [kworker/0:1]
+mysql    13835     1  0 Oct25 ?        01:19:19 /usr/sbin/mysqld
+root     13878     2  0 04:22 ?        00:00:00 [kworker/u6:2]
+root     15256 26256  0 Sep18 tty1     00:00:00 sudo su
+root     15257 15256  0 Sep18 tty1     00:00:00 su
+root     15258 15257  0 Sep18 tty1     00:00:01 bash
+root     15275 15258  0 Sep18 tty1     00:00:00 mysql -u root -p
+root     15330     2  0 06:25 ?        00:00:00 [kworker/1:2]
+root     15348     2  0 06:25 ?        00:00:00 [kworker/2:2]
+root     15352     2  0 06:25 ?        00:00:00 [kworker/0:2]
+www-data 15459 20543  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data 15460 20543  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data 15461 20543  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data 15462 20543  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data 15463 20543  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+root     15482     2  0 06:25 ?        00:00:00 [kworker/u6:0]
+root     15813 26912  0 06:42 tty1     00:00:00 ps -ef
+root     16149 15258  0 Sep18 tty1     00:00:00 mysql -u root -p
+root     16271 15258  0 Sep18 tty1     00:00:00 mysql -u root -p
+root     18418 15258  0 Sep26 tty1     00:00:00 vim /etc/php/7.0/apache2/php.ini
+root     19341     2  0 Sep16 ?        00:00:00 [xfsalloc]
+root     19342     2  0 Sep16 ?        00:00:00 [xfs_mru_cache]
+root     20432 15258  0 Sep26 tty1     00:00:00 vim /etc/php/7.0/apache2/php.ini
+root     20543     1  0 Sep26 ?        00:06:02 /usr/sbin/apache2 -k start
+root     22085 15258  0 Nov03 tty1     00:00:00 sudo su
+root     22086 22085  0 Nov03 tty1     00:00:00 su
+root     22087 22086  0 Nov03 tty1     00:00:00 bash
+root     26254  7050  0 Sep16 tty1     00:00:00 sudo su
+root     26255 26254  0 Sep16 tty1     00:00:00 su
+root     26256 26255  0 Sep16 tty1     00:00:00 bash
+root     26910 30932  0 Dec11 tty1     00:00:00 sudo su
+root     26911 26910  0 Dec11 tty1     00:00:00 su
+root     26912 26911  0 Dec11 tty1     00:00:03 bash
+root     29797     2  0 Dec19 ?        00:00:01 [kworker/2:3]
+root     30930 22087  0 Nov03 tty1     00:00:00 sudo su
+root     30931 30930  0 Nov03 tty1     00:00:00 su
+root     30932 30931  0 Nov03 tty1     00:00:00 bash
+root     32692     1  0 Nov07 ?        00:02:37 /usr/sbin/sshd -D
